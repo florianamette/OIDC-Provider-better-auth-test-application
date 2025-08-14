@@ -129,30 +129,6 @@ export const authClient = createAuthClient({
 })
 ```
 
-## 📊 What You'll See
-
-After successful authentication, the application displays:
-
-### 1. User Information (from Auth Server)
-- Retrieved from `/api/auth/oauth2/userinfo` endpoint
-- Contains detailed user profile data from the OAuth provider
-- Uses Bearer token authentication
-
-### 2. Session Information (from Client)
-- Retrieved from client-side session data
-- Contains authentication state, tokens, and basic user data
-- Includes session token used for API calls
-
-## 🔍 Key Features Tested
-
-- ✅ **OIDC Provider Setup**: Server acts as OAuth 2.0/OpenID Connect provider
-- ✅ **OIDC Generic OAuth Integration**: Client uses Better Auth's Generic OAuth
-- ✅ **OAuth Flow**: Complete authorization code flow
-- ✅ **Token Management**: Access token extraction and usage
-- ✅ **User Info API**: Fetching user profile information
-- ✅ **Session Management**: Client-side session handling
-- ✅ **Error Handling**: Graceful error handling for failed requests
-
 ## 🛠️ Development
 
 ### Project Structure
